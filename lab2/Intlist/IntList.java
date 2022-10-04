@@ -99,6 +99,9 @@ public class IntList {
         if (B == null) {
             return A;
         };
+        if (A == null) {
+            return B;
+        };
 
         if (A.rest != null) {
             return new IntList(A.first, catenate(A.rest, B));
