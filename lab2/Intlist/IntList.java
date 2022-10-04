@@ -98,7 +98,7 @@ public class IntList {
         //TODO:  fill in method
         if (A == null) {return B;}
         if (B == null) {
-            return null;
+            return A;
         };
 
         if (A.rest != null) {
